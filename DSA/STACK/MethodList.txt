@@ -1,0 +1,9 @@
+QUEUE
+
+void push(int x); // * T.C: O(1)
+void pop(); // * T.C: O(1)
+int front(); // Front Element, Ex: [1,2,3,4] : O/P: 1, T.C: O(1)
+int back(); // Back Element, Ex: [1,2,3,4] : O/P: 4, T.C: O(1)
+bool empty(); // Returns true if empty, T.C: O(1)
+bool full(); // Returns true if full, T.C: O(1)
+int size(); // Returns the size of QUEUE
